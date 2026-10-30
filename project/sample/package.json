@@ -1,0 +1,1 @@
+{"name":"tree002-negroni-reference-study","private":true,"type":"module","scripts":{"start":"node server.mjs","motion":"python3 scripts/make_motion.py"}}

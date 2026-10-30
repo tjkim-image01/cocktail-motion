@@ -1,0 +1,156 @@
+{
+  "spoon": {
+    "width": 1024,
+    "height": 1536,
+    "bounds": [
+      455,
+      22,
+      577,
+      1511
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  },
+  "liquid-red": {
+    "width": 1396,
+    "height": 1127,
+    "bounds": [
+      176,
+      233,
+      1220,
+      946
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "vermouth": {
+    "width": 1024,
+    "height": 1536,
+    "bounds": [
+      341,
+      70,
+      683,
+      1460
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  },
+  "ice": {
+    "width": 1254,
+    "height": 1254,
+    "bounds": [
+      92,
+      117,
+      1173,
+      1201
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "campari": {
+    "width": 1024,
+    "height": 1536,
+    "bounds": [
+      337,
+      72,
+      684,
+      1475
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  },
+  "glass": {
+    "width": 1117,
+    "height": 1408,
+    "bounds": [
+      64,
+      95,
+      1055,
+      1315
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "gin": {
+    "width": 1024,
+    "height": 1536,
+    "bounds": [
+      334,
+      32,
+      691,
+      1500
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  },
+  "liquid-clear": {
+    "width": 1998,
+    "height": 787,
+    "bounds": [
+      237,
+      280,
+      1757,
+      676
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "peel": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      46,
+      82,
+      2127,
+      647
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "glass-v2": {
+    "width": 1254,
+    "height": 1254,
+    "bounds": [
+      211,
+      236,
+      1043,
+      1107
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "ice-v2": {
+    "width": 1254,
+    "height": 1254,
+    "bounds": [
+      176,
+      212,
+      1097,
+      1110
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  }
+}

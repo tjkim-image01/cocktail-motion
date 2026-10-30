@@ -1,0 +1,11 @@
+{
+  "title": "M013 · 원화에서 움직임으로",
+  "baseSpeed": 2,
+  "defaultMode": "pingpong",
+  "manifest": "manifest.json",
+  "faceBase": "face/",
+  "audio": "audio/eunsol-dialogue.wav",
+  "lipsync": "audio/lipsync.json",
+  "voice": "은솔",
+  "dialogue": "안녕! 만나서 반가워. 오늘도 좋은 하루 보내. 우리, 다음에 또 만나!"
+}

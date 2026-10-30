@@ -1,0 +1,11 @@
+{
+  "title": "2damin 에디터",
+  "baseSpeed": 2,
+  "defaultMode": "pingpong",
+  "manifest": "manifest.json",
+  "faceBase": "face/",
+  "audio": "audio/dialogue.wav",
+  "lipsync": "audio/lipsync.json",
+  "voice": "",
+  "dialogue": ""
+}

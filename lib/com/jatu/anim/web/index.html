@@ -1,0 +1,12 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Head Turn · 부위 분리 고개 회전</title><link rel="stylesheet" href="style.css"></head><body>
+<header><span class="brand">HEAD TURN <span>Live2D식 부위 분리</span></span></header>
+<main><div class="title"><div><p class="overline">THREE.JS / LIVE2D-STYLE PART RIG</p><h1>고개를 돌리다.</h1></div><p>정면 원화 한 장을 부위로 나누고<br>부위마다 다른 깊이로 움직입니다.</p></div>
+<div class="workspace"><section class="artboard" aria-label="고개 회전 애니메이션"><div id="stage"><p id="loading">부위 원화를 불러오는 중…</p><p id="error" role="alert" hidden></p></div><div class="stage-bottom"><span id="direction">정면</span><output id="angleValue">0.0°</output><button id="savePng">현재 그림 PNG 저장 ↓</button></div></section>
+<aside><h2>고개 회전</h2><p class="intro">각도 하나가 모든 부위를 함께 움직입니다.<br>코·앞머리는 많이, 귀·뒷머리는 적게.</p>
+<div class="transport"><button id="play" aria-pressed="true">일시정지</button><label for="speed" class="sr-only">재생 속도</label><select id="speed"><option value="1">1× 원속도</option><option value="0.5">0.5× 느리게</option><option value="0.25">0.25× 느리게</option></select></div>
+<label class="field" for="angle">직접 돌리기 <span id="rangeLabel">−30° ~ +30°</span></label><input id="angle" type="range" min="-30" max="30" step="0.1" value="0" aria-label="고개 회전 각도"><div class="poses"><button data-pose="-1">왼쪽</button><button data-pose="0">정면</button><button data-pose="1">오른쪽</button></div>
+<div class="slider-row"><label for="depth">입체감</label><output id="depthValue">100%</output></div><input id="depth" type="range" min="0.4" max="1.6" step="0.05" value="1" aria-label="입체감">
+<div class="options"><label><input id="physics" type="checkbox" checked>머리카락이 늦게 따라오기</label><label><input id="blink" type="checkbox" checked>회전 중 눈 깜빡임</label><button id="blinkNow">지금 깜빡이기</button><label><input id="tint" type="checkbox">부위 색으로 보기</label><label><input id="mesh" type="checkbox">변형 메시 보기</label><ul id="legend" hidden></ul></div>
+<dl><div><dt>부위 레이어</dt><dd><span id="layerCount">—</span>개</dd></div><div><dt>변형 정점</dt><dd id="vertCount">—</dd></div></dl>
+</aside></div>
+<footer><p>3D 모델·영상·광학 흐름 없이 평면 메시 변형으로만 움직입니다. lib/com/jatu/anim</p></footer></main><script type="module" src="app.js"></script></body></html>

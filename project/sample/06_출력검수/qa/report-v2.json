@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "date": "2026-10-29",
+  "reference_tenth_frames": 300,
+  "rendered_tenth_frames": 300,
+  "analysis_focus": [
+    0,
+    6
+  ],
+  "source_fps": 30,
+  "frames_per_sample": 3,
+  "videos": {
+    "tree002-v2-30s.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "900"
+        }
+      ],
+      "format": {
+        "duration": "30.000000",
+        "size": "5942390"
+      }
+    },
+    "tree002-v2-intro-6s.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "180"
+        }
+      ],
+      "format": {
+        "duration": "6.000000",
+        "size": "293615"
+      }
+    },
+    "tree002-v2-compare-intro-6s.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1080,
+          "height": 540,
+          "r_frame_rate": "30/1",
+          "nb_frames": "180"
+        }
+      ],
+      "format": {
+        "duration": "6.000000",
+        "size": "393756"
+      }
+    }
+  },
+  "browser": {
+    "page_errors_after_fix": 0,
+    "tenth_step": {
+      "before": 0.7,
+      "after": 0.8
+    },
+    "ice_segment_loop_time": 3.9726999999970154,
+    "observed_sync_drift": 1e-06,
+    "ice_inspection_pairs": 18,
+    "broken_images": 0,
+    "mobile_width": 390,
+    "horizontal_overflow": false
+  }
+}

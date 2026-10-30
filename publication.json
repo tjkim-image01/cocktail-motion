@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-31",
+  "provider": "GitHub Pages",
+  "repository": "tjkim-image01/cocktail-motion",
+  "repository_url": "https://github.com/tjkim-image01/cocktail-motion",
+  "site_url": "https://tjkim-image01.github.io/cocktail-motion/",
+  "catalog_url": "https://tjkim-image01.github.io/cocktail-motion/files.html",
+  "visibility": "public",
+  "source": {"branch": "main", "path": "/"},
+  "scope": "Entire cocktail workspace: sample V1–V4, reference, assets, prompts, measurements, captures, videos, SFX, wiki and lib",
+  "exclusions": [".venv", ".git", "__pycache__", "*.pyc", "node_modules", ".DS_Store", "*.log"],
+  "catalog_build": "python3 scripts/build_catalog.py",
+  "local_only_functions": "Server-side H.264 export and batch capture saving require the local Node server; playback, comparison, frame stepping, speed, loop and current PNG download run statically."
+}

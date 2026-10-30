@@ -1,0 +1,73 @@
+{
+  "revision": "sumuk-v31 / EP03 body / immediate brush / semantic background exclusions",
+  "reference": "studio.html?ep=ep03&lang=ko",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "working_size": [
+    4000,
+    2608
+  ],
+  "fps": 30,
+  "intro_seconds": 6,
+  "write_seconds": [
+    0,
+    3.5
+  ],
+  "body_seconds": 66,
+  "cover_seconds": 1.5,
+  "delivery_seconds": 67.5,
+  "drawing_order": [
+    "each person: head/face/hair base colors",
+    "same person: body colors",
+    "same person: fine hair/expression/clothing contours",
+    "next person",
+    "objects",
+    "background separated by pigment"
+  ],
+  "pigment_rule": "constant RGB per stroke, source texture and dilution only in alpha",
+  "pigment_change_lift_seconds": 0.13,
+  "background_change_lift_seconds": 0.2,
+  "renderer": "source-pixel raster path mask; no SVG; no end fill; Three.js physical brush; deterministic rewind",
+  "source_rule": "each new picture keeps its own source pixels, sampled palette and hand-authored scene masks; upscaling is not native 4K generation",
+  "body_effects": false,
+  "audio_start": "saved musicStart=0 with browser user-gesture unlock",
+  "preserve": [
+    "source artwork",
+    "saved settings",
+    "narration",
+    "captions",
+    "music selection and offset",
+    "body duration and camera"
+  ],
+  "signature_sha256": "30201cfaaa2a1f36fbeaa94a8f5b5d6a4605eaf2b40aea14cab2ed5b93cf2c94",
+  "assets_sha256": {
+    "patch_intro_v31.py": "2060ef34fe420338e93390594e2fae69d96de11e6a5227e2dd43e59e133fc776",
+    "intro-v31.js": "b3f178db2211a29ebd18c8353d7ad46ae22819c33e289b847fef27ef6ba46d3e",
+    "plan.json": "572bd7efc676d364581788626fc7927e0221c96b31af6851d931d11c9ea5b3fc",
+    "fix_arm_background_v31.py": "163ac11a04e07724fed70bedadd958c3213b3726a737c1e0022ca46bb4c2a4b6",
+    "approved.png": "30201cfaaa2a1f36fbeaa94a8f5b5d6a4605eaf2b40aea14cab2ed5b93cf2c94",
+    "raster-paint.js": "22e95b2e2e1e936bbab376786752ad7bf3e880ec2fb6be14bd245822ed34fae0",
+    "studio.js": "b415c27c8b7b287100a2f1b2348dd695a0e07ef6fe94ee7270d6e7cc78302465",
+    "calligraphy-raster-v30.js": "11a18485b8e458b5b7701f26ff35e072e79feddd832b7d735a8cb7c32691b376",
+    "director.js": "cc0c5ab9f8857541c16b90deaea3f188b946a01ccdf2a363f3d7a2e67f127db7",
+    "birth.png": "7df41bf7111581fe50511ee92de6c7806685ad0ea3f8b6347989bd2161d4d0f3",
+    "live-brush.js": "110d98aae6d9fdd02b8ad6c69b62aba25fbeb48e9a98117235d04c27bd7923e4",
+    "render_v30_cli.py": "eb0cf433f585f20fa24f1ead76d9027e302f45c221eaa6e8f84a00193284d8f4",
+    "reference-brush-v27.js": "34035eabdd964aa82ac052c4ceeb9df84e9871364619f7dc019e423b35e24249",
+    "render_v30_server.py": "96d0e5177f5a31e5a8a869513db575ed0d6a6b6cc39c5baf9263df1d6b164ee2",
+    "render-v30.js": "2f3659436f054fed6b5edd3ff3ccb780ae87700dc20358c63d8ab6f986b79652",
+    "brush-motion.js": "5503b5ee0669b3f8df0f25489c60a7b89c8ddbcfbbe7aa499df45906859e2666"
+  },
+  "reuse_verified": "Rebuilt approved EP03 as new episode sample: all 770 stroke records and PNG assets matched byte for byte.",
+  "export_capture": "Aside native canvas / WebCodecs AVC / continuous dequeue instead of intermediate flushes. Shared painting frame with pixel-identical KO/EN/JA annotations; raw/PNG capture fallback supported.",
+  "future_policy_file": "next-production.json",
+  "export_camera_clip": "Only temporary composition is clipped; full pigment cache preserved. Six body, three intro and rewind pixel equivalence verified.",
+  "intro_first_brush_seconds": 0,
+  "semantic_background_rule": "Exclude wall/window/floor strokes from silhouettes including sleeve/limb gaps. Foreground alpha must be zero in exclusion masks; reveal only during final background.",
+  "old_versions_preserved": [
+    "v18",
+    "v30"
+  ]
+}

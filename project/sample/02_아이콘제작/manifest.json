@@ -1,0 +1,104 @@
+{
+  "created": "2026-10-29",
+  "assets": [
+    {
+      "name": "glass",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-043ad7f6-f038-4f7c-bbd3-79592935d02a.png",
+      "file": "assets/glass.png",
+      "prompt": "prompts/glass.txt",
+      "selected": false
+    },
+    {
+      "name": "ice",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-9099f3ac-e46f-4506-b1c8-dad1af7a8ecc.png",
+      "file": "assets/ice.png",
+      "prompt": "prompts/ice.txt",
+      "selected": false
+    },
+    {
+      "name": "gin",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-8a6c01d2-684e-4d50-b19f-56079831604b.png",
+      "file": "assets/gin.png",
+      "prompt": "prompts/gin.txt",
+      "selected": true
+    },
+    {
+      "name": "campari",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-550b7bb7-65fe-4649-be87-25f8cf833dc6.png",
+      "file": "assets/campari.png",
+      "prompt": "prompts/campari.txt",
+      "selected": true
+    },
+    {
+      "name": "vermouth",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-078dad46-493f-4fbb-a80a-a8557117fbee.png",
+      "file": "assets/vermouth.png",
+      "prompt": "prompts/vermouth.txt",
+      "selected": true
+    },
+    {
+      "name": "spoon",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-3a99227e-ff5a-46bc-a541-5ac8ab93d6e1.png",
+      "file": "assets/spoon.png",
+      "prompt": "prompts/spoon.txt",
+      "selected": true
+    },
+    {
+      "name": "peel",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-7dfd6f15-80c5-4cfe-bec0-3aaf51ac761b.png",
+      "file": "assets/peel.png",
+      "prompt": "prompts/peel.txt",
+      "selected": true
+    },
+    {
+      "name": "liquid-clear",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-9ad18de7-8984-4e80-8dc5-5013e3a60565.png",
+      "file": "assets/liquid-clear.png",
+      "prompt": "prompts/liquid-clear.txt",
+      "selected": true
+    },
+    {
+      "name": "liquid-red",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-744f05bd-ac6a-4f66-8ec7-e43211fe9a70.png",
+      "file": "assets/liquid-red.png",
+      "prompt": "prompts/liquid-red.txt",
+      "selected": true
+    },
+    {
+      "name": "glass-v2",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-899eb864-8c39-4c49-bf26-a2e59d213291.png",
+      "file": "assets/glass-v2.png",
+      "prompt": "prompts/glass-v2.txt",
+      "selected": true
+    },
+    {
+      "name": "ice-v2",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "source": "/Users/jatu/.codex/generated_images/01a18316-2708-75d1-a971-d7c4266c6946/exec-e4c4ed38-5a8e-4a3f-92cc-a36140179f4b.png",
+      "file": "assets/ice-v2.png",
+      "prompt": "prompts/ice-v2.txt",
+      "selected": true
+    }
+  ]
+}

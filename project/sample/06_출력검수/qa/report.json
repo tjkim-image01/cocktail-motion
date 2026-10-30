@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-29",
+  "reference_frames": 30,
+  "rendered_frames": 30,
+  "image_size": [
+    1080,
+    1080
+  ],
+  "asset_files": 11,
+  "selected_assets": 9,
+  "independent_sprite_meshes": 11,
+  "browser_errors": 0,
+  "comparison_playback_observed": {
+    "time": 13.280488,
+    "video_time": 13.280488,
+    "drift_seconds": 0
+  },
+  "frame_step_seconds": 0.03333333333333333,
+  "comparison_gallery": {
+    "images": 60,
+    "broken_images": 0
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "horizontal_overflow": false
+  },
+  "local_url": "http://127.0.0.1:4342/",
+  "limitations": [
+    "Generated object designs and font differ from reference",
+    "Manual registration, not automatic tracking",
+    "No user visual approval yet"
+  ],
+  "loop_at_2x": "passed, returned below 1s from 29.7s",
+  "standalone_player": "passed at 22s"
+}

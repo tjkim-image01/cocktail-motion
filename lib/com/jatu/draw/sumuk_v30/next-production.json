@@ -1,0 +1,11 @@
+{
+  "apply_to": "current v31 and future productions",
+  "intro_first_brush_seconds": 0,
+  "write_seconds": [
+    0,
+    3.5
+  ],
+  "intro_seconds": 6,
+  "preserve_old_delivery_files": true,
+  "latest_user_override": "Remove the blank-paper hold in current videos too."
+}

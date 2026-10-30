@@ -1,0 +1,1 @@
+{"name":"cocktail-motion-workspace","private":true,"type":"module","scripts":{"start":"node project/sample/server.mjs"}}

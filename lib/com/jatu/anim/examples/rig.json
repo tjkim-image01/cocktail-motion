@@ -1,0 +1,143 @@
+{
+  "note": "좌표는 원화(parts/source_front.png, 724px) 기준. depth가 클수록 고개를 돌릴 때 더 많이 움직인다.",
+  "example": "M007 세라 V8 (project/m007/head_turn_v8). 다른 캐릭터는 좌표를 그 원화에 맞게 바꾼다.",
+  "maxAngle": 30,
+  "view": {
+    "x0": 40,
+    "x1": 690,
+    "y0": 8,
+    "y1": 700
+  },
+  "pivot": [
+    360,
+    600
+  ],
+  "fields": {
+    "face": {
+      "dome": {
+        "cx": 350,
+        "cy": 360,
+        "rx": 230,
+        "ry": 290,
+        "rz": 120
+      },
+      "bumps": [
+        {
+          "name": "코",
+          "x": 345,
+          "y": 425,
+          "sx": 22,
+          "sy": 26,
+          "amp": 40
+        },
+        {
+          "name": "입",
+          "x": 350,
+          "y": 472,
+          "sx": 34,
+          "sy": 14,
+          "amp": 12
+        },
+        {
+          "name": "턱",
+          "x": 350,
+          "y": 552,
+          "sx": 45,
+          "sy": 30,
+          "amp": 18
+        }
+      ]
+    },
+    "hair": {
+      "dome": {
+        "cx": 360,
+        "cy": 280,
+        "rx": 300,
+        "ry": 320,
+        "rz": 105
+      },
+      "bumps": [
+        {
+          "name": "앞머리",
+          "x": 350,
+          "y": 230,
+          "sx": 140,
+          "sy": 110,
+          "amp": 12
+        }
+      ]
+    },
+    "neck": {
+      "ramp": {
+        "y0": 640,
+        "y1": 470,
+        "depth": 55
+      }
+    }
+  },
+  "layers": {
+    "hair_back": {
+      "field": "hair",
+      "lag": {
+        "y0": 150,
+        "y1": 580,
+        "amount": 0.9
+      }
+    },
+    "neck": {
+      "field": "neck"
+    },
+    "face": {
+      "field": "face"
+    },
+    "eye_l": {
+      "field": "face",
+      "blink": {
+        "lash": 334,
+        "y": 376
+      }
+    },
+    "eye_r": {
+      "field": "face",
+      "blink": {
+        "lash": 324,
+        "y": 370
+      }
+    },
+    "hair_front": {
+      "field": "hair",
+      "lag": {
+        "y0": 150,
+        "y1": 580,
+        "amount": 0.9
+      }
+    },
+    "bun": {
+      "field": "hair",
+      "lag": {
+        "y0": 150,
+        "y1": 300,
+        "amount": 1.0
+      },
+      "tuck": {
+        "x": 580,
+        "y": 232,
+        "range": 70,
+        "depth": -45
+      },
+      "clip": true
+    }
+  },
+  "motion": {
+    "hold": 0.55,
+    "turn": 1.0,
+    "nod": 3.5,
+    "tilt": 1.5,
+    "blinkAt": 0.18,
+    "blinkLength": 0.16,
+    "hairSpring": {
+      "k": 170,
+      "c": 15
+    }
+  }
+}

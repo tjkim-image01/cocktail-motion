@@ -1,0 +1,42 @@
+{
+  "name": "2damin",
+  "adoptedByUser": "2026-10-27",
+  "referenceProject": "project/m013",
+  "workflow": [
+    "first-last artwork",
+    "Flow animation",
+    "720p download",
+    "frame extraction",
+    "tracked local eye/mouth morphs",
+    "Typecast speech",
+    "independent audio-clock lipsync"
+  ],
+  "defaults": {
+    "flowAccount": "u10",
+    "generationResolution": "360p",
+    "downloadResolution": "720p",
+    "requestedSeconds": 10,
+    "baseSpeed": 2,
+    "displaySpeed": 1,
+    "mode": "pingpong"
+  },
+  "mouthRule": "Use actual open and closed source artwork; preserve teeth/tongue/ink",
+  "sharing": "viewer-only; editor stays local",
+  "verification": [
+    "init/extract: 6 real frames / 24fps / 0.25s",
+    "browser runtime loaded with M013 data; default pingpong, display1/actual2, audio1"
+  ],
+  "files": [
+    "2damin.py",
+    "README.md",
+    "examples/default.json",
+    "examples/m013.json",
+    "recipes/m013/align_speech.py",
+    "recipes/m013/build_face_rig.py",
+    "recipes/m013/extract_eyes.py",
+    "recipes/m013/extract_mouth.py",
+    "web/face.js",
+    "web/index.html",
+    "web/player.js"
+  ]
+}
